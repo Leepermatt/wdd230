@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Pathway+Extreme&display=swap');
+
+
+.img {
+    height: 200px;
+    width: 200px;
+
+}
+
+header {
+    font: bruno+Ace;
+    font-size: x-large;
+    color: white;
+    background-color: #001242;
+    display: grid;
+    grid-template-columns: 450px auto;
+    justify-items: center;
+}
+
+nav {
+    color: white;
+    background-color: rgb(17, 232, 32);
+    display: grid;
+    font-size: x-large;
+
+}
+
+nav a:hover {
+    background-color: #ffffff;
+    color: #001242;
+    text-decoration: none;
+
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+
+}
