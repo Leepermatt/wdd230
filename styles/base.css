@@ -4,17 +4,27 @@
 .img {
     height: 200px;
     width: 200px;
+    /* grid-template-columns: repeat(4, 1fr); */
+
 
 }
 
-header {
+main {
     font: bruno+Ace;
     font-size: x-large;
     color: white;
     background-color: #001242;
     display: grid;
-    grid-template-columns: 450px auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, .5fr);
     justify-items: center;
+}
+
+main h2 {
+    border-bottom-style: solid;
+    grid-column: 2/4;
+    text-align: center;
+
 }
 
 nav {
@@ -30,6 +40,15 @@ nav a:hover {
     color: #001242;
     text-decoration: none;
 
+}
+
+.card {
+    grid-column: 2/4;
+}
+
+.card h3 {
+    text-align: center;
+    background-color: blue;
 }
 
 #content {
