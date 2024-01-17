@@ -9,6 +9,10 @@
 
 }
 
+header {
+    grid-template-columns: repeat(4, 1fr)
+}
+
 main {
     font: bruno+Ace;
     font-size: x-large;
