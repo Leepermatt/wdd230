@@ -9,9 +9,11 @@
 
 }
 
-header {
-    grid-template-columns: repeat(4, 1fr)
-}
+/* header {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, .5fr);
+} */
 
 main {
     font: bruno+Ace;
