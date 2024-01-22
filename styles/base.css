@@ -9,11 +9,11 @@
 
 }
 
-/* header {
+header {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, .5fr);
-} */
+    grid-column: 2/4;
+    text-align: center;
+}
 
 main {
     font: bruno+Ace;
