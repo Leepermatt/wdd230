@@ -10,7 +10,8 @@ footer {
     max-width: 650px;
     margin: 1rem auto;
     padding: 1rem;
-    border: 1px solid #62bde1 background-color #096285;
+    border: 1px solid #62bde1;
+    background-color: #096285;
 }
 
 main {
