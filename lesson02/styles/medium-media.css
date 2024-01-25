@@ -1,0 +1,7 @@
+@media screen and (min-width:32.5em) {
+
+    .card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
