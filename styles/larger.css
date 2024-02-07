@@ -1,25 +1,25 @@
-@media screen and (min-width: 37.5em) {
+@media screen and (min-width: 700px) {
 
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        /* display: grid;
 
-        grid-template-columns: repeat(3, 1fr);
-
-        grid-auto-rows: auto;
-
-        grid-gap: 1rem; */
     }
 
-    h1 {
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    /* h1 {
         font-size: 2.5rem;
         margin-left: 0;
         text-align: center;
-    }
+    } */
 
     h2 {
-        font-size: 2rem;
+        grid-column: 1/3;
+        color: white;
         text-align: center;
     }
 
@@ -28,16 +28,14 @@
         /* hide hamburger button */
     }
 
-    .navigation {
+    /* .navigation {
         flex-direction: row;
     }
 
     .navigation a {
         display: block;
         flex: 1 1 100%;
-    }
+    } */
 
-    .stuff {
-        margin: 1rem auto;
-    }
+
 }
