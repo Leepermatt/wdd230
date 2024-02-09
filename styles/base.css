@@ -67,13 +67,14 @@ nav {
     padding: 15px;
     width: 100%;
     max-width: 800px;
-    /* display: none; */
+    flex-direction: row;
+    display: grid;
 
 
 }
 
 nav a {
-    display: block;
+    display: flex;
     padding: 1rem;
     text-align: center;
     color: #fff;

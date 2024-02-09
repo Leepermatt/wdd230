@@ -33,9 +33,18 @@
         flex-direction: row;
     } */
     navigation {
+        color: white;
+        background-color: rgb(63, 10, 235);
+        font-size: large;
+        text-align: center;
+        padding: 15px;
+        width: 100%;
+        max-width: 800px;
+        flex-direction: row;
+        /* display: grid;
         position: related;
         float: right;
-        top: 100px;
+        top: 100px; */
         right: 10px;
     }
 
