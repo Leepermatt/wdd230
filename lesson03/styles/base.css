@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Pathway+Extreme&display=swap');
+
+.background {
+    background-color: rgb(19, 95, 201);
+    color: white;
+}
+
+.headerFooter {
+    background-color: rgb(43, 6, 156);
+    color: white;
+}
+
+body {
+    font-family: 'Pathway Extreme', Times, serif;
+    text-align: center;
+}
