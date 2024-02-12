@@ -18,3 +18,37 @@
 #menu.open::before {
     content: "☑️";
 }
+
+.navigation {
+    background-color: rgb(17, 125, 234);
+    color: white;
+    list-style: none;
+}
+
+footer {
+    background-color: rgb(41, 4, 188);
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(41, 4, 188);
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(17, 125, 234);
+    color: white;
+}
+
+nav a:hover {
+    color: white;
+
+}
+
+main {
+    background-color: rgb(17, 125, 234);
+    color: white;
+}
