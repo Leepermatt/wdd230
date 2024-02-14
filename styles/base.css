@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Pathway+Extreme&display=swap');
 
 
-img {
+.photo {
     height: auto;
     width: 100px;
     grid-column: 5;
@@ -33,19 +33,19 @@ header {
     padding: 20px
 }
 
-body {
+/* body {
     font-family: 'Pathway Extreme', Times, serif;
     display: grid;
     place-items: center;
     grid-template-rows: auto 1fr auto;
-}
+} */
 
 main {
     font: 'Pathway Extreme';
     font-size: x-large;
     color: white;
     background-color: #04206e;
-    max-width: 800px;
+    max-width: 1000px;
     width: 100%;
 
 }
@@ -223,3 +223,39 @@ h2 {
     height: 100vh;
 
 } */
+/* .hero {
+    margin: 10px auto;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, .1);
+    height: 300px;
+} */
+
+.hero img {
+    width: 100%;
+    height: auto;
+
+    /* grid-: auto; */
+}
+
+.herolabel {
+    position: relative;
+    margin: 0px;
+    top: 90px;
+    left: 60px;
+    background: radial-gradient(#fff, #4D5B97);
+    border: 1px solid rgba(0, 0, 0, .75);
+    padding: 1.5rem;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.75;
+
+}
+
+.herolabel p {
+    position: relative;
+    margin: 0;
+    padding: .25rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: "Great Vibes", serif;
+
+}
