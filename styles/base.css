@@ -259,3 +259,9 @@ h2 {
     font-family: "Great Vibes", serif;
 
 }
+
+#visits {
+    color: navy;
+    font-weight: bolder;
+    font-size: larger;
+}
