@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <div id="formmessage"></div>
+        <h1>Home page form</h1>
+        <form method="get" action="record.html">
+            <fieldset>
+                <legend>Form</legend>
+                <label>Username* <input type="text" id="Username" name="Username" required></label>
+                <label>Password* <input type="text" id="Password" name="Password" pattern="[A-Za-z0-9]{8,8}"
+                        title="Eight or more characters alpha numberic only" required></label>
+                <label>Password 2nd time* <input type="text" id="Password2" name="Password2" pattern="[A-Za-z0-9]{8,8}"
+                        title="Eight or more characters alpha numberic only" required></label>
+                <label>Email <input type="email" id="Email" name="Email" pattern="[a-z0-9._%+\-]+@byui.edu"
+                        title="A valid byui.edu email address." placeholder="Your byui email address" required></label>
+                <label>Page Rating <input type="range" id="Rating" name="Page Rating" min="0" max="10" value="0"
+                        step="1" list="rangevalues">
+                    <datalist id="rangevalues">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </datalist></label>
+
+            </fieldset>
+            <input type="submit" value="Contact Us">
+        </form>
+    </main>
+    <script src="scripts/password.js"></script>
+</body>
+
+</html>
