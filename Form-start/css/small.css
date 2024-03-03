@@ -105,7 +105,7 @@ main {
 .wf1 input[type="date"],
 .wf1 select,
 .wf1 input[type="number"] {
-    background-color: deeppin#eee;
+    background-color: #eee;
     display: block;
     border: solid 1px #999;
     border-radius: 6px;
