@@ -14,6 +14,10 @@
     appearance: none;
 }
 
+:ff1 {
+    background-color: white
+}
+
 .ff1 div {
     padding-top: 1rem;
     color: #445ba9;
