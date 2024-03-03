@@ -2,7 +2,21 @@
 <html lang="en">
 
 <head>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
     <meta charset="UTF-8">
+    <meta property='title' content="WDD 230 - Web Frontend Development Matthew Leeper course form">
+    <meta property="og:title" content="Matthew Leeper - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="Form">
+    <meta property="og:author" content="Matthew Leeper">
+    <meta property="description" content="Form">
+    <meta property="og:description" content="Form Page">
+    <meta property="og:image" content="https://travelnevada.com/cities/las-vegas/">
+    <meta property="og:url" content="https://leepermatt.github.io/wdd230/">
+
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="Home Page Form">
     <meta name="author" content="Matthew Leeper">
@@ -19,6 +33,20 @@
 </head>
 
 <body>
+    <header>
+
+        <img class="photo" src="images/small.jpg" alt="Matthew Leeper">
+        <h1> Matthew Leeper</h1>
+    </header>
+    <button id="menu"></button>
+    <nav class="navigation">
+        <a href="index.html">Home</a>
+        <a href="lesson03/chamber-site-plan.html">Site Plan</a>
+        <a href="chamber/">Chamber</a>
+        <a href="https://www.byui.edu/">BYUI</a>
+        <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/37?lang=eng&id=p37#p37">Favorite
+            Scripture</a>
+    </nav>
     <main>
         <div id="formmessage"></div>
         <h1>Home page form</h1>
@@ -52,6 +80,16 @@
             <input type="submit" value="Contact Us">
         </form>
     </main>
+    <footer>
+        <p>&copy;<span id="currentYear"></span> | Matthew Leeper | Nevada 🏴󠁵󠁳󠁮󠁶󠁿| Today's Date: <span
+                id="currentdate"></span></p>
+        Last Modified
+        <p id="lastModified">Last Modified</p>
+
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/counter.js"></script>
     <script src="scripts/password.js"></script>
 </body>
 
