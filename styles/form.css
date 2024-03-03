@@ -1,0 +1,7 @@
+.ff1 input:required {
+    border-bottom: solid 8px red;
+}
+
+.ff1 input:required:valid {
+    border-bottom: solid 8px green;
+}
