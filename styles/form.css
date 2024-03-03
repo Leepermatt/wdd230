@@ -1,7 +1,8 @@
-.wf1 input[type="text"],
-.wf1 input[type="email"],
-.wf1 select,
-.wf1 input[type="email"] {
+.ff1 input[type="text"],
+.ff1 input[type="email"],
+.ff1 select,
+.ff1 input[type="password"],
+.ff1 input[type="email"] {
     background-color: #eee;
     display: block;
     border: solid 1px #999;
@@ -13,6 +14,11 @@
     appearance: none;
 }
 
+.ff1 div {
+    padding-top: 1rem;
+    color: #445ba9;
+    font-size: .9rem;
+}
 
 .ff1 input[type="submit"] {
     border: none;
