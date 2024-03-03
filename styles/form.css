@@ -1,3 +1,19 @@
+.wf1 input[type="text"],
+.wf1 input[type="email"],
+.wf1 select,
+.wf1 input[type="email"] {
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+
 .ff1 input[type="submit"] {
     border: none;
     background-image: linear-gradient(#9c2c13, #6f200e);
