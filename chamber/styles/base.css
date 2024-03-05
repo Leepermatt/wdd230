@@ -94,10 +94,69 @@ a {
 }
 
 /*hero-image*/
+/*section2*/
+.section2 {
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.current-events,
+.weather {
+    margin: 5px;
+    padding: 5px;
+    background-color: #517194;
+    color: white;
+    border: 2px solid #070f17;
+}
+
+.current-events h3 {
+    text-align: center;
+}
+
+.weather {
+    text-align: center;
+}
+
+/*section2*/
+/*headlines*/
+.headlines {
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #0D1B2A;
+}
+
+.c1 {
+    background-color: #517194;
+    color: white;
+    margin: 5px;
+}
+
+.c2 {
+    background-color: #517194;
+    color: white;
+    margin: 5px;
+}
+
+.c3 {
+    background-color: #517194;
+    color: white;
+    margin: 5px;
+}
+
+/*headlines*/
 footer {
     background-color: rgb(41, 4, 188);
     color: white;
     text-align: center;
+    width: 100%;
+    max-width: 400px;
 }
 
 
