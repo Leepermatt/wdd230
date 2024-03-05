@@ -4,11 +4,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property='title' content="WDD 230 Cedar City Chamber of Commerce">
+    <meta property="og:title" content="Matthew Leeper - WDD 230 - Cedar City Chamber of Commerce">
+    <meta property="og:type" content="Website">
+    <meta property="og:author" content="Matthew Leeper">
+    <meta property="og:website" content="Chamber of Commerce">
+    <meta property="og:url" content="https://leepermatt.github.io/wdd230/chamber">
+    <meta property="og:image" content="https://images.app.goo.gl/AuY5FhmNKpeKbzRx7">
+    <meta property="og:description" content="Cedar City Chamber of Commerce skills practice">
+    <meta name="author" content="Matthew Leeper">
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/responsive.js"></script>
+    <script src="scripts/dark.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <title>Cedar City Chamber of Commerce</title>
 </head>
 
 <body>
+    <header>
+        <h1>Cedar City Chamber of Commerce</h1>
+        <label class="switch circular-switch">
+            <input id="darkmode" type="checkbox">
+            <span class="slider round"></span>
+        </label>
 
+    </header>
+
+    <nav>
+        <button id="menu" aria-label="hamburger menu"></button>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="directory.html">Directory</a></li>
+        </ul>
+    </nav>
+    <main class="discover-main">
+
+    </main>
+    <footer>
+        <p>&copy;<span id="currentYear"></span> | Matthew Leeper | Project for WDD230| Today's Date: <span
+                id="currentdate"></span></p>
+        Last Modified
+        <p id="lastModified">Last Modified</p>
+
+    </footer>
 </body>
 
 </html>
