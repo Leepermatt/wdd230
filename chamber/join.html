@@ -4,11 +4,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property='title' content="WDD 230 Cedar City Chamber of Commerce">
+    <meta property="og:title" content="Matthew Leeper - WDD 230 - Cedar City Chamber of Commerce">
+    <meta property="og:type" content="Website">
+    <meta property="og:author" content="Matthew Leeper">
+    <meta property="og:website" content="Chamber of Commerce">
+    <meta property="og:url" content="https://leepermatt.github.io/wdd230/chamber">
+    <meta property="og:image" content="https://images.app.goo.gl/AuY5FhmNKpeKbzRx7">
+    <meta property="og:description" content="Cedar City Chamber of Commerce skills practice">
+    <meta name="author" content="Matthew Leeper">
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/responsive.js"></script>
+    <script src="scripts/dark.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <title>Cedar City Chamber of Commerce</title>
 </head>
 
 <body>
+    <header>
+        <h1>Cedar City Chamber of Commerce</h1>
+        <label class="switch circular-switch">
+            <input id="darkmode" type="checkbox">
+            <span class="slider round"></span>
+        </label>
 
+    </header>
+    <nav>
+        <button id="menu" aria-label="hamburger menu"></button>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="directory.html">Directory</a></li>
+        </ul>
+    </nav>
+    <main class="join_main">
+        <h1 class="join_h1">Join Our Community Today!</h1>
+        <form method="get" action="thankyou.html" class="ff1">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label>First Name* <input type="text" name="fname" required></label>
+                <label> Last Name* <input type="text" name="lname" required></label>
+                <label>Title/Position* <input type="text" name="position" id="position" required
+                        pattern="[a-zA-Z -]{7,}"
+                        title="Please enter a title or position (minimum 7 characters)"></label>
+                <label>Email* <input type="email" name="email" id="email" required
+                        placeholder="example@gmail.com"></label>
+                <label>Phone* <input type="tel" name="phone" id="phone" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Organization Information</legend>
+                <label>Organization Name* <input type="text" name="org_name" id="org_name" required></label>
+                <fieldset>
+                    <legend id="mem_ops">Membership Level*</legend>
+                    <label><input type="radio" name="membership_level" value="NP Membership" required> NP
+                        Membership</label><br>
+                    <label><input type="radio" name="membership_level" value="Bronze Membership" required> Bronze
+                        Membership</label><br>
+                    <label><input type="radio" name="membership_level" value="Silver Membership" required> Silver
+                        Membership</label><br>
+                    <label><input type="radio" name="membership_level" value="Gold Membership" required> Gold
+                        Membership</label>
+                </fieldset>
+                <label>Organization Description<input type="text" name="dec_org" id="dec_org" required></label>
+                <input type="hidden" name="submission_time" id="submission_time">
+                <button id="sub_button" type="submit">Completed</button>
+            </fieldset>
+        </form>
 </body>
 
 </html>

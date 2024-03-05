@@ -3,8 +3,8 @@
     header,
     nav,
     .hero-image,
-    .sec1,
-    .spotlights,
+    .section2,
+    .businesses,
     footer,
     .discover-main {
         max-width: 800px;
@@ -35,7 +35,7 @@
         display: block;
     }
 
-    .sec1 {
+    .section2 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
@@ -61,7 +61,7 @@
         content: "Large";
     }
 
-    .discover-cont {
+    .discover-cedar {
         grid-column: 1;
     }
 

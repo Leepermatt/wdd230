@@ -9,14 +9,13 @@ h1 {
     color: white;
 }
 
-/* #mode {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    font-size: 3rem;
-    cursor: pointer;
-    font-size: 2rem;
-} */
+nav {
+    max-width: 400px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
 
 header {
     background-color: rgb(41, 4, 188);
@@ -46,10 +45,19 @@ header {
     content: "☑️";
 }
 
+.open li {
+    display: block;
+}
+
 nav ul {
     /* set everything to zero so you can make it how you like*/
     list-style: none;
     padding: 0;
+}
+
+nav li:hover a:hover {
+    background-color: white;
+    color: rgb(41, 4, 188);
 }
 
 nav li {
@@ -200,11 +208,11 @@ footer {
 }
 
 input:checked+.slider {
-    background-color: #2196F3;
+    background-color: #36a1f8;
 }
 
 input:focus+.slider {
-    box-shadow: 0 0 1px #2196F3;
+    box-shadow: 0 0 1px #0583ea;
 }
 
 input:checked+.slider:before {
@@ -227,7 +235,79 @@ nav li:hover {
 
 }
 
-/* main {
-    background-color: rgb(17, 125, 234);
+.hero-image {
+    position: relative;
+}
+
+.hero-image p {
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    background: rgb(41, 4, 188);
     color: white;
-} */
+    border: 1px solid white;
+    padding: 10px;
+}
+
+/*discover page*/
+.discover-main {
+    max-width: 400px;
+    margin: 0;
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+}
+
+.discover-cedar {
+    grid-column: 1;
+}
+
+#visitor {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #0583ea;
+    text-align: center;
+    background-color: #0583ea;
+    color: white;
+}
+
+#holidays-events {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #0583ea;
+    text-align: center;
+    background-color: #0583ea;
+    color: white;
+}
+
+#rodeo {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #0583ea;
+    text-align: center;
+    background-color: #0583ea;
+    color: white;
+}
+
+#rodeo img {
+    border: 1px solid white;
+}
+
+#businesses {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #0583ea;
+    text-align: center;
+    background-color: #0583ea;
+    color: white;
+}
+
+.discover-img {
+    margin: 10px;
+    text-align: center;
+    border: 2px solid #0583ea;
+    background-color: #0583ea;
+    color: white;
+}
+
+/*discover page*/
