@@ -373,31 +373,31 @@ nav li:hover {
     border: solid 1px #eee;
     border-radius: 6px;
     padding: .75rem;
-    color: rgb(41, 4, 188;
-            width: 100%;
-            max-width: 400px;
-            appearance: none;
-    }
+    color: rgb(41, 4, 188);
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
 
-    #mem_ops {
-        border: solid 2px #0583ea;
-        margin-top: 1rem;
-        padding: 5px;
-        max-width: 250px;
-    }
+#mem_ops {
+    border: solid 2px #0583ea;
+    margin-top: 1rem;
+    padding: 5px;
+    max-width: 250px;
+}
 
-    #sub_button {
-        margin-top: 2rem;
-        width: 100%;
-        max-width: 250px;
-        padding: .8rem;
-        border-radius: 6px;
-        color: white;
-        background-color: #0583ea;
-        font-size: x-large;
-    }
+#sub_button {
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 250px;
+    padding: .8rem;
+    border-radius: 6px;
+    color: white;
+    background-color: #0583ea;
+    font-size: x-large;
+}
 
-    #sub_button:hover {
-        background-color: white;
-        color: #0583ea;
-    }
+#sub_button:hover {
+    background-color: white;
+    color: #0583ea;
+}
