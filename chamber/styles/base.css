@@ -311,3 +311,93 @@ nav li:hover {
 }
 
 /*discover page*/
+/*join page CSS*/
+.join_main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    width: 100%;
+    max-width: 1000px;
+    margin-bottom: 2rem;
+}
+
+.join_h1 {
+    grid-column: 1/3;
+    background-color: #0583ea;
+    padding: 5px;
+    text-align: center;
+}
+
+.ff1 {
+    grid-column: 1;
+    border: solid 2px #0583ea;
+}
+
+.memb_info {
+    grid-column: 2;
+    border: solid 2px #0583ea;
+    text-align: center;
+    padding: 10px;
+}
+
+.ff1 fieldset {
+    margin: 2rem 0;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+
+.ff1 legend {
+    color: white;
+    background-color: #0583ea;
+    border: solid 2px white;
+    padding: 2px;
+    font-size: larger;
+}
+
+.ff1 label {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-size: large;
+}
+
+.ff1 input[type="text"],
+.ff1 input[type="tel"],
+.ff1 input[type="email"],
+.ff1 input[type="hidden"],
+.ff1 input[type="submit"],
+.ff1 input[type="radio"] {
+    background-color: #eee;
+    display: block;
+    border: solid 1px #eee;
+    border-radius: 6px;
+    padding: .75rem;
+    color: rgb(41, 4, 188;
+            width: 100%;
+            max-width: 400px;
+            appearance: none;
+    }
+
+    #mem_ops {
+        border: solid 2px #0583ea;
+        margin-top: 1rem;
+        padding: 5px;
+        max-width: 250px;
+    }
+
+    #sub_button {
+        margin-top: 2rem;
+        width: 100%;
+        max-width: 250px;
+        padding: .8rem;
+        border-radius: 6px;
+        color: white;
+        background-color: #0583ea;
+        font-size: x-large;
+    }
+
+    #sub_button:hover {
+        background-color: white;
+        color: #0583ea;
+    }
