@@ -1,14 +1,21 @@
-const modeButton = document.querySelector("#mode");
-const main = document.querySelector("main");
+document.addEventListener("DOMContentLoaded", function () {
 
-modeButton.addEventListener("click", () => {
-    if (modeButton.textContent.includes("🕶️")) {
-        main.style.background = "#000";
-        main.style.color = "#fff";
-        modeButton.textContent = "🔆";
-    } else {
-        main.style.background = "#eee";
-        main.style.color = "#000";
-        modeButton.textContent = "🕶️";
-    }
+    var darkModeSlider = document.getElementById('darkmode');
+
+    darkModeSlider.addEventListener('change', function () {
+        // Selecting the elements I want to change
+        var elementsToChange = document.querySelectorAll('body, header, nav, main, section, footer, div, li');
+
+        if (this.checked) {
+            elementsToChange.forEach(function (element) {
+                element.style.backgroundColor = 'black';
+                element.style.color = 'white';
+            });
+        } else {
+            elementsToChange.forEach(function (element) {
+                element.style.backgroundColor = '';
+                element.style.color = '';
+            });
+        }
+    });
 });
