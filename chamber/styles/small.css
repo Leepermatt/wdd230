@@ -1,0 +1,22 @@
+@media screen and (min-width:200px) {
+
+    .hero-image p::before {
+        content: "Small";
+    }
+
+    .discover-main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .hero-image p::before {
+        content: "Large";
+    }
+
+
+    img {
+        max-width: 250px;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,75 @@
+@media screen and (min-width:460px) {
+
+    header,
+    nav,
+    .hero-image,
+    .sec1,
+    .spotlights,
+    footer,
+    .discover-main {
+        max-width: 800px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        /* Evenly space the NAV items */
+    }
+
+    nav li {
+        display: inline-block;
+        flex-grow: 1;
+        /* Will grow to full space! */
+    }
+
+    nav a {
+        display: contents;
+        display: inline-block;
+    }
+
+    nav li a {
+        display: block;
+    }
+
+    .sec1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .current-events {
+        grid-column: 1;
+    }
+
+    .weather {
+        grid-column: 2;
+    }
+
+    .hero-image p::before {
+        content: "Medium";
+    }
+
+    .discover-main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero-image p::before {
+        content: "Large";
+    }
+
+    .discover-cont {
+        grid-column: 1;
+    }
+
+    .discover-img {
+        grid-column: 2/3;
+    }
+
+    img {
+        max-width: 300px;
+    }
+}

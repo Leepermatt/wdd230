@@ -1,9 +1,39 @@
-@media screen and (min-width: 700px) {
-    @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Pathway+Extreme&display=swap');
+@media screen and (min-width:804px) {
 
-    main {
+    header,
+    nav,
+    .hero-image,
+    .section2,
+    .headlines,
+    footer,
+    .discover-main {
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    .headlines,
+    .discover-main {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
+    }
 
+    .hero-image p::before {
+        content: "Large";
+    }
+
+    .discover-cont {
+        grid-column: 1;
+    }
+
+    .discover-img {
+        grid-column: 2/4;
+    }
+
+    img {
+        max-width: 500px;
+    }
+
+    .discover-img img:hover {
+        box-shadow: 0 0 50px white;
     }
 }
