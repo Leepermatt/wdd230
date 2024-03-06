@@ -1,0 +1,35 @@
+{
+    "lessons": [
+        {
+            "lesson": "02",
+            "links": [
+                {
+                    "url": "",
+                    "title": "Media Queries"
+                },
+                {
+                    "url": "images/combinators.png",
+                    "title": "Design Principles Document"
+                }
+            ]
+        },
+        {
+            "Lesson": "03",
+            "links": [
+                {
+                    "url": "https://codepen.io/mattleeper/pen/XWGqvqj",
+                    "title": "https://codepen.io/mattleeper/pen/wvOjVbL"
+                }
+            ]
+        },
+        {
+            "Lesson": "04",
+            "link": [
+                {
+                    "url": "ttps://codepen.io/mattleeper/pen/QWoZLVL",
+                    "title": "CSs Psuedo classes"
+                }
+            ]
+        }
+    ]
+}
