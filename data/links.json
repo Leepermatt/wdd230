@@ -26,8 +26,17 @@
             "Lesson": "04",
             "link": [
                 {
-                    "url": "ttps://codepen.io/mattleeper/pen/QWoZLVL",
+                    "url": "https://codepen.io/mattleeper/pen/QWoZLVL",
                     "title": "CSs Psuedo classes"
+                }
+            ]
+        },
+        {
+            "Lesson": "04",
+            "link": [
+                {
+                    "url": "https://leepermatt.github.io/wdd230/Lesson05/bom",
+                    "title": "BOM JS group"
                 }
             ]
         }
