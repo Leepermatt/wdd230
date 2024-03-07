@@ -32,11 +32,42 @@
             ]
         },
         {
-            "Lesson": "04",
+            "Lesson": "05",
             "link": [
                 {
                     "url": "https://leepermatt.github.io/wdd230/Lesson05/bom",
                     "title": "BOM JS group"
+                }
+            ]
+        },
+        {
+            "Lesson": "06",
+            "link": [
+                {
+                    "url": "https://leepermatt.github.io/wdd230/lesson06/responsive-images",
+                    "title": "responsive images"
+                }
+            ]
+        },
+        {
+            "Lesson": "07",
+            "link": [
+                {
+                    "url": "https://leepermatt.github.io/wdd230/lesson07/lazyload",
+                    "title": "Lazy Loading"
+                },
+                {
+                    "url": "https://leepermatt.github.io/wdd230/lesson07/bom",
+                    "title": "BOM local storage"
+                }
+            ]
+        },
+        {
+            "Lesson": "07",
+            "link": [
+                {
+                    "url": "https://leepermatt.github.io/wdd230/form",
+                    "title": "Lazy Loading"
                 }
             ]
         }
