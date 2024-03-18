@@ -8,8 +8,43 @@
                     "title": "Media Queries"
                 },
                 {
-                    "url": "images/combinators.png",
-                    "title": "Design Principles Document"
+                    "url": "https://leepermatt.github.io/wdd230/lesson02/media-query.html",
+                    "title": "Media Query Scriptures"
+                }
+            ]
+        },
+        {
+            "lesson": "02",
+            "links": [
+                {
+                    "url": "",
+                    "title": "Media Queries"
+                },
+                {
+                    "url": "https://leepermatt.github.io/wdd230/lesson02/design.html",
+                    "title": "Design Principles page"
+                }
+            ]
+        },
+        {
+            "lesson": "02",
+            "links": [
+                {
+                    "url": "",
+                    "title": "Media Queries"
+                },
+                {
+                    "url": "https://leepermatt.github.io/wdd230/lesson02/design-principles.html",
+                    "title": "Design Principles page"
+                }
+            ]
+        },
+        {
+            "Lesson": "03",
+            "links": [
+                {
+                    "url": "https://leepermatt.github.io/wdd230/lesson03/images/combinators.png",
+                    "title": "https://codepen.io/mattleeper/pen/wvOjVbL"
                 }
             ]
         },
