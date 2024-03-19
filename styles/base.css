@@ -97,7 +97,7 @@ nav ul li {
 
 .card {
     display: grid;
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr; */
     background-color: rgb(17, 164, 232);
     margin: 10px;
     border-radius: 15px;
