@@ -4,34 +4,12 @@
             "lesson": "02",
             "links": [
                 {
-                    "url": "",
-                    "title": "Media Queries"
-                },
-                {
                     "url": "https://leepermatt.github.io/wdd230/lesson02/media-query.html",
                     "title": "Media Query Scriptures"
-                }
-            ]
-        },
-        {
-            "lesson": "02",
-            "links": [
-                {
-                    "url": "",
-                    "title": "Media Queries"
                 },
                 {
                     "url": "https://leepermatt.github.io/wdd230/lesson02/design.html",
                     "title": "Design Principles page"
-                }
-            ]
-        },
-        {
-            "lesson": "02",
-            "links": [
-                {
-                    "url": "",
-                    "title": "Media Queries"
                 },
                 {
                     "url": "https://leepermatt.github.io/wdd230/lesson02/design-principles.html",
@@ -44,16 +22,15 @@
             "links": [
                 {
                     "url": "https://leepermatt.github.io/wdd230/lesson03/images/combinators.png",
-                    "title": "https://codepen.io/mattleeper/pen/wvOjVbL"
-                }
-            ]
-        },
-        {
-            "Lesson": "03",
-            "links": [
+                    "title": "Combinators exercises screenshot"
+                },
                 {
                     "url": "https://codepen.io/mattleeper/pen/XWGqvqj",
-                    "title": "https://codepen.io/mattleeper/pen/wvOjVbL"
+                    "title": "pseudo-elements code pen"
+                },
+                {
+                    "url": "https://codepen.io/mattleeper/pen/wvOjVbL",
+                    "title": "responsive-menus code pen"
                 }
             ]
         },
@@ -62,7 +39,7 @@
             "link": [
                 {
                     "url": "https://codepen.io/mattleeper/pen/QWoZLVL",
-                    "title": "CSs Psuedo classes"
+                    "title": "CSs Psuedo classes Fun"
                 }
             ]
         },
@@ -98,11 +75,28 @@
             ]
         },
         {
-            "Lesson": "07",
+            "Lesson": "08",
             "link": [
                 {
                     "url": "https://leepermatt.github.io/wdd230/form",
-                    "title": "Lazy Loading"
+                    "title": "Form"
+                },
+                {
+                    "url": "https://leepermatt.github.io/wdd230/lesson08/tablebuild.html",
+                    "title": "Table build"
+                }
+            ]
+        },
+        {
+            "Lesson": "09",
+            "link": [
+                {
+                    "url": "https://leepermatt.github.io/wdd230/lesson09/new-ward-members.json",
+                    "title": "JSON new ward members"
+                },
+                {
+                    "url": "https://leepermatt.github.io/wdd230/lesson09/prophets.json",
+                    "title": "Fetch Basics"
                 }
             ]
         }
