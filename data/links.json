@@ -18,7 +18,7 @@
             ]
         },
         {
-            "Lesson": "03",
+            "lesson": "03",
             "links": [
                 {
                     "url": "https://leepermatt.github.io/wdd230/lesson03/images/combinators.png",
@@ -35,8 +35,8 @@
             ]
         },
         {
-            "Lesson": "04",
-            "link": [
+            "lesson": "04",
+            "links": [
                 {
                     "url": "https://codepen.io/mattleeper/pen/QWoZLVL",
                     "title": "CSs Psuedo classes Fun"
@@ -44,8 +44,8 @@
             ]
         },
         {
-            "Lesson": "05",
-            "link": [
+            "lesson": "05",
+            "links": [
                 {
                     "url": "https://leepermatt.github.io/wdd230/Lesson05/bom",
                     "title": "BOM JS group"
@@ -53,8 +53,8 @@
             ]
         },
         {
-            "Lesson": "06",
-            "link": [
+            "lesson": "06",
+            "links": [
                 {
                     "url": "https://leepermatt.github.io/wdd230/lesson06/responsive-images",
                     "title": "responsive images"
@@ -62,8 +62,8 @@
             ]
         },
         {
-            "Lesson": "07",
-            "link": [
+            "lesson": "07",
+            "links": [
                 {
                     "url": "https://leepermatt.github.io/wdd230/lesson07/lazyload",
                     "title": "Lazy Loading"
@@ -75,8 +75,8 @@
             ]
         },
         {
-            "Lesson": "08",
-            "link": [
+            "lesson": "08",
+            "links": [
                 {
                     "url": "https://leepermatt.github.io/wdd230/form",
                     "title": "Form"
@@ -88,8 +88,8 @@
             ]
         },
         {
-            "Lesson": "09",
-            "link": [
+            "lesson": "09",
+            "links": [
                 {
                     "url": "https://leepermatt.github.io/wdd230/lesson09/new-ward-members.json",
                     "title": "JSON new ward members"

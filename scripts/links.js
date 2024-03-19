@@ -5,37 +5,32 @@ async function getLinks() {
     const response = await fetch(linksURL);
     const data = await response.json();
     ///console.log(data); ///test
-    displayLinks(data);
+    displayLinks(data.lessons);
 }
 
-getLinks();
-
-const displayLinks = (assignments) => {
-    // card build code goes here
-    assignments.forEach((assignment) => {
-        let card = document.createElement('div');
-        let lesson = document.createElement('h2'); // fill in the blank
-        let url = document.createElement('h3');
-        let title = document.createElement('h3');
-
-        // Build the h2 content out to show the prophet's full name
-        lesson.textContent = `Lesson Number:${assignment.lesson}`;
-        url.textContent = `Link: ${assignment.url}`;
-        title.textContent = `Description: ${assignment.title}`;
-        // Build the image portrait by setting all the relevant attributes
-        ///portrait.setAttribute('src', prophet.imageurl);
-        ////portrait.setAttribute('alt', `Portrait of ${prophet.name}  ${prophet.lastname}`); // fill in the blank
-        ///portrait.setAttribute('loading', 'lazy');
-        ///portrait.setAttribute('width', '340');
-        ///portrait.setAttribute('height', '440');
-
-        // Append the section(card) with the created elements
-        card.appendChild(lesson); //fill in the blank
-        card.appendChild(url);
-        card.appendChild(title);
-        ///card.appendChild(portrait);
 
 
-        cards.appendChild(card);
+const displayLinks = (lessons) => {
+
+
+    lessons.forEach((lesson) => {
+        let lessonDiv = document.createElement('div');
+        let lessonHeader = document.createElement('h2');
+        lessonHeader.textContent = `Lesson Number:${lesson.lesson}`;
+        lessonDiv.appendChild(lessonHeader);
+        lesson.links.forEach((link) => {
+            let linkElement = document.createElement('a');
+            linkElement.textContent = link.title;
+            linkElement.href = link.url;
+            linkElement.target = "_blank"; // Open link in a new tab
+            let listItem = document.createElement('li');
+            listItem.appendChild(linkElement);
+            lessonDiv.appendChild(listItem);
+
+
+        });
+        cards.appendChild(lessonDiv);
+
     });// end of arrow function and forEach loop
 }
+getLinks();
