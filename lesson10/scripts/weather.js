@@ -6,11 +6,10 @@ const lattitude = '49.75';
 const longitude = '6.64';
 const apiKey = '2f78556413725d71ca9f22d69354cba8'
 const units = 'imperial';
-//const url = `https://api.openweathermap.org/data/2.5/weather?lat="49.75"&lon="6.64"&appid="527e6953608f03c267561344ff6bbac1"`
+
 const url = `https://api.openweathermap.org/data/2.5/weather?lat=49.75&lon=6.64&units=imperial&appid=2f78556413725d71ca9f22d69354cba8`
 //const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=${units}&appid=${apiKey}`;
-//const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lattitude}&log=${longitude}&units=${units}&appid=${apiKey}`;
-//const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lattitude}&lon=${longitude}&appid=${apiKey}`
+
 
 async function apiFetch() {
     try {
