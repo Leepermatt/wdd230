@@ -401,3 +401,112 @@ nav li:hover {
     background-color: white;
     color: #0583ea;
 }
+
+/*directory*/
+.directory_mean h1 {
+    text-align: center;
+    background-color: rgb(41, 4, 188);
+    padding: 10px;
+    margin-bottom: -0.5rem;
+}
+
+.menu {
+    text-align: center;
+    background-color: rgb(41, 4, 188);
+    padding: 10px;
+}
+
+.menu button {
+    color: rgb(41, 4, 188);
+    font-size: larger;
+}
+
+.directory section {
+    margin: 10px;
+    border: solid 2px white;
+    padding: 5px;
+}
+
+#grid,
+#list {
+    color: #000;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 5px;
+    align-items: center;
+    background-color: rgb(41, 4, 188);
+    color: white;
+    margin: 10px;
+}
+
+.grid section {
+    text-align: center;
+}
+
+.grid img {
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px #333;
+}
+
+.grid section>* {
+    margin: 0.1rem;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background-color: rgb(41, 4, 188);
+    color: white;
+}
+
+.list section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin: 0;
+    padding: 0.25rem;
+}
+
+.list section>* {
+    margin: 0 1rem;
+}
+
+.list section img {
+    display: none;
+    /* smaller viewports only */
+}
+
+.list section:nth-child(even) {
+    background-color: white;
+    color: rgb(41, 4, 188);
+}
+
+.banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.banner p {
+    background-color: rgb(41, 4, 188);
+    color: white;
+    padding: 10px;
+    grid-column: 1/4;
+}
+
+.banner button {
+    grid-column: 2;
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+    background-color: white;
+    color: rgb(41, 4, 188);
+    padding: 4px;
+    border: none;
+}
+
+.banner button:hover {
+    background-color: rgb(41, 4, 188);
+    color: white;
+}

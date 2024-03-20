@@ -4,71 +4,71 @@
             "Name": "Iron Mountain Realty",
             "Address": "5704 Pebble Rock",
             "Phone": "7022508177",
-            "Web url": "https://ironmountainrealty.com",
-            "image": "chamber/data/Iron Mountain Realty-1.png",
+            "Web_url": "https://ironmountainrealty.com",
+            "image": "data/Iron Mountain Realty-1.png",
             "membership": "Platinum",
             "contact": "Matt",
-            "notes": ""
+            "altText": ""
         },
         {
             "Name": "Southern Utah University",
             "Address": "351 W University Blvd Cedar City, Ut 84720",
             "Phone": "4355867700",
-            "Web url": "https://suu.edu",
-            "image": "chamber/data/suu.jpg",
+            "Web_url": "https://suu.edu",
+            "image": "data/suu.jpg",
             "membership": "platinum",
             "contact": "John",
-            "notes": ""
+            "altText": "suu.jpg"
         },
         {
             "Name": "Georges Ski Shop",
             "Address": "612 UT-143 Brian Head Ut 84719",
             "Phone": "4356772013",
-            "Web url": "https://gerogesskishop.com",
-            "image": "chamber/data/GeorgsSkiShopLogoCropped.png",
+            "Web_url": "https://gerogesskishop.com",
+            "image": "data/GeorgsSkiShopLogoCropped.png",
             "membership": "Bronze",
             "contact": "George",
-            "notes": ""
+            "altText": "GeorgsSkiShopLogo"
         },
         {
             "Name": "Thunder Mountain Motosports",
             "Address": "539 UT-143 Brian Head, Ut 84719",
             "Phone": "4356772288",
-            "Web url": "https//https://www.brianheadthunder.com/",
-            "image": "chamber/data/thunder-mtn-logo-100.png",
+            "Web_url": "https//https://www.brianheadthunder.com/",
+            "image": "data/thunder-mtn-logo-100.png",
             "membership": "Silver",
             "contact": "Bob",
-            "notes": ""
+            "altText": "thunder-mtn-logo-100.png"
         },
         {
             "Name": "Rangers Farm and Ranch Supply",
             "Address": "2230 UT-56 Cedar City, UT 84720",
             "Phone": "4352757009",
-            "Web url": "https://rangersfeedstore.com/",
-            "image": "chamber/data/2024-03-18.jpg",
+            "Web_url": "https://rangersfeedstore.com/",
+            "image": "data/2024-03-18.jpg",
             "membership": "Gold",
             "contact": "Frank",
-            "notes": ""
+            "altText": "2024-03-18.jpg"
         },
         {
             "Name": "Cedar Sports",
             "Address": "80 S Main St Cedar City, UT 84720",
             "Phone": "4355865651",
-            "Web url": "https://www.cedarsportsshop.com/",
-            "image": "chamber/data/2017-10-29.jpg",
+            "Web_url": "https://www.cedarsportsshop.com/",
+            "image": "data/2017-10-29.jpg",
             "membership": "Bronze",
             "contact": "Susan",
-            "notes": ""
+            "altText": "2017-10-29.jp"
         },
         {
             "Name": "Rons Sports",
             "Address": "588 S Main St Cedar City, UT 84720",
             "Phone": "4355862360",
-            "Web url": "http://ronssportinggoods.com",
-            "image": "",
+            "Web_url": "http://ronssportinggoods.com",
+            "image": "data/ronslogo.png",
             "membership": "Plantinum",
             "contact": "Wendy",
-            "notes": ""
+            "altText": "ronslogo.png"
         }
     ]
 }
