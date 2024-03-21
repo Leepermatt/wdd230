@@ -448,7 +448,7 @@ nav li:hover {
 
 .grid img {
     border: 1px solid #fff;
-    box-shadow: 0 0 10px #333;
+    box-shadow: 0 0 10px #141414;
 }
 
 .grid section>* {
