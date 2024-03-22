@@ -265,3 +265,9 @@ h2 {
     font-weight: bolder;
     font-size: larger;
 }
+
+/* } weather */
+.card figure {
+    margin: 0 auto;
+    display: inline-block;
+}

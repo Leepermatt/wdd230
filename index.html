@@ -22,6 +22,7 @@
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/hamburger.js" defer></script>
     <script src="scripts/counter.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
     <title>Matthew Leeper - WDD 230 - Web Frontend Development</title>
 </head>
 
@@ -58,26 +59,16 @@
         <section class="card">
             <h3>Learning Activities</h3>
             <div id="card"></div>
-            <!-- <ul>
-                <li><a href='images/combinators.png'>HW combinators</a>week 2</li>
-                <li><a href='https://codepen.io/mattleeper/pen/XWGqvqj'>week 3 check to tasks</a></li>
-                <li><a href='https://codepen.io/mattleeper/pen/wvOjVbL'>week 3 hamburger menu</a></li>
-                <li><a href='https://codepen.io/mattleeper/pen/QWoZLVL'>Week 4 CSs Psuedo classes</a></li>
-                <li><a href='https://leepermatt.github.io/wdd230/Lesson05/bom'> week 5 BOM JS group</a></li>
-                <li><a href='https://leepermatt.github.io/wdd230/lesson06/responsive-images'>Week 06 responsive
-                        images</a></li>
-                <li><a href='https://leepermatt.github.io/wdd230/lesson07/lazyload'>week 07 lazy loading</li>
-                <li><a href='https://leepermatt.github.io/wdd230/lesson07/bom'>BOM local storage week 7</li>
-                <li><a href='https://leepermatt.github.io/wdd230/form'>Home page form week 08</a></li>
-                <li><a href='Form-start/index.html'>week 8 forms practice</a></li>
-                <li><a href='https://leepermatt.github.io/wdd230/lesson09/new-ward-members.json'>Lesson 09 JSON
-                        practice</a></li>
-            </ul> -->
+
         </section>
         <section class="card">
             <h3>Information</h3>
             <a>Las Vegas</a>
-            <a> 49 F Sunny</a>
+            <p>The current tempature in Las Vegas, Nevada is: <span id="current-temp"></span></span></p>
+            <figure>
+                <img id="weather-icon" src="" alt="">
+                <figcaption></figcaption>
+            </figure>
             <a>
                 <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
             </a>
