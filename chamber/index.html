@@ -19,6 +19,11 @@
     <meta property="og:image" content="https://images.app.goo.gl/AuY5FhmNKpeKbzRx7">
     <meta property="og:description" content="Cedar City Chamber of Commerce skills practice">
     <meta name="author" content="Matthew Leeper">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/responsive.js" defer></script>
+    <script src="scripts/dark.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
 
     <title>Cedar City Chamber of Commerce</title>
 </head>
@@ -67,8 +72,15 @@
             <div class="weather">
                 <h3>Information</h3>
                 <p>Cedar City UT</p>
-                <p>Temperature: <span id="temperature">38</span>°F</p>
-                <p>Wind Speed: <span id="wind-speed">3.3</span> mph</p>
+                <p>Temperature: <span id="temperature"></span></p>
+                <figcaption></figcaption>
+                <img id="weather-icon" src="" alt="">
+
+                <p>Wind Speed: <span id="wind-speed"></span></p>
+                <p>3 day temperature forcast: <span id="forcast"></span></p>
+                <p><span id="future-temp1"></span></p>
+                <p><span id="future-temp2"></span></p>
+                <p><span id="future-temp3"></span></p>
             </div>
         </section>
         <section class="headlines">
@@ -93,10 +105,7 @@
         <p id="lastModified">Last Modified</p>
 
     </footer>
-    <script src="scripts/getdates.js"></script>
-    <script src="scripts/responsive.js"></script>
-    <script src="scripts/dark.js"></script>
-    <script src="scripts/windchill.js"></script>
+
 
 </body>
 
