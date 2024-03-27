@@ -12,7 +12,7 @@ const urll = `https://api.openweathermap.org/data/2.5/forecast?lat=37.70&lon=113
 
 const currentTemp = document.querySelector('#temperature');
 const weatherIcon = document.querySelector('#weather-icon');
-const captionDesc = document.querySelector('figcaption');
+const captionDesc = document.querySelector('#forcast');
 //const windSpeed = document.querySelector('#wind-speed');
 const fTemp1 = document.querySelector('#future-temp1');
 const fTemp2 = document.querySelector('#future-temp2');
