@@ -15,10 +15,28 @@ function displayBanner() {
     // If it's Monday, Tuesday, or Wednesday, display the banner; otherwise, hide it
     if (isWeekday) {
         banner.style.display = 'block';
+
+        // Add an event listener to the close button
+        const closeButton = document.getElementById('closeButton');
+        closeButton.addEventListener('click', () => {
+            banner.style.display = 'none';
+        });
     } else {
         banner.style.display = 'none';
     }
 }
 
+// Function to close the banner when the close button is clicked
+function closeBanner() {
+    const banner = document.getElementById('banner');
+    banner.style.display = 'none';
+}
+
 // Call the displayBanner function when the page loads
-window.onload = displayBanner;
+window.onload = function () {
+    displayBanner();
+
+    // Add event listener to the close button
+    const closeButton = document.getElementById('closeButton');
+    closeButton.addEventListener('click', closeBanner);
+};
