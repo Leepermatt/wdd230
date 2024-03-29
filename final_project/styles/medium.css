@@ -1,0 +1,16 @@
+/* Media query for smaller screens */
+@media screen and (max-width: 900px) {
+    nav ul {
+        display: none;
+        /* Hide the list of links on smaller screens */
+    }
+
+    .hamburger {
+        display: block;
+        /* Display the hamburger menu icon */
+        float: right;
+        /* Float the hamburger menu icon to the right */
+        cursor: pointer;
+        /* Change cursor to pointer on hover */
+    }
+}
