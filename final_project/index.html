@@ -17,39 +17,69 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="styles/medium.css">
-    <script href="scripts/hamburger.js" defer></script>
-
+    <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/weather1.js" defer></script>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
     <title>Scoots Motor Bike rentals</title>
 </head>
-<header>
-
-    <h1>Scoots Motor Rentals</h1>
-    <h2>2 Locations to serve you better</h2>
-</header>
-
-<nav class="navigation">
-    <button id="menu" aria-label="hamburger"></button>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="reservations.html">Reservations</a></li>
-        <li><a href="rentals.html">Rentals</a></li>
-        <li><a href="reservations.html">Reservations</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-    </ul>
-    <!-- <div class="hamburger">&#9776;</div> -->
-</nav>
 
 <body>
+    <header>
+
+        <h1>Scoots Motor Rentals</h1>
+        <h2>2 Locations to serve you better</h2>
+    </header>
+
+    <nav class="navigation">
+        <button id="menu" aria-label="hamburger"></button>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="rentals.html">Rentals</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <!-- <div class="hamburger">&#9776;</div> -->
+    </nav>
+
+
     <main>
+        <section>
+            <div id="banne">
+                <p>High temperature for the day: <span id="highest-temp"></span></p>
+                <!-- <button id="closeButton">Close</button> -->
+            </div>
+        </section>
         <h1>Scoots Motor Rental</h1>
 
-        <section class="rental button">
+        <section class="rental-button">
+            <div id="rental-button">
+                <p>Click here to rent now!</p>
+                <button id="closeButton2">Close</button>
+            </div>
 
 
         </section>
+
         <section class="hero-image">
             <picture src></picture>
+        </section>
+        <section class="card">
+            <h3>Information</h3>
+            <a>Cozemul</a>
+            <p>The current tempature in Cozemul Mexico is: <span id="current-temp"></span></p>
+            <p>Title: <span id="title"></span></p>
+            <figure>
+                <img id="weather-icon" src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+            <p>Description: <span id="description"></span></p>
+            <p>The current humidity is: <span id="humidity"></span> </p>
+
+            <p>The next day temperature at 3:00 pm is: <span id="#next-day-temp-at3"></span></p>
+
 
         </section>
     </main>
