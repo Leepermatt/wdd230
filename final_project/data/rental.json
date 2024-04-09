@@ -6,7 +6,7 @@
         "FullDay": "$30",
         "HalfDay6hrs": "$25",
         "FullDayExtended": "$35",
-        "Image":
+        "Image": "images/honda_metro.webp"
     },
     {
         "RentalType": "Honda Dio Scooter",
@@ -14,7 +14,8 @@
         "HalfDay3hrs": "$30",
         "FullDay": "$40",
         "HalfDay6hrs": "$35",
-        "FullDayExtended": "$45"
+        "FullDayExtended": "$45",
+        "Image": ""
     },
     {
         "RentalType": "Honda PCX150 Scooter",
@@ -22,7 +23,8 @@
         "HalfDay3hrs": "$40",
         "FullDay": "$50",
         "HalfDay6hrs": "$45",
-        "FullDayExtended": "$55"
+        "FullDayExtended": "$55",
+        "Image": ""
     },
     {
         "RentalType": "Honda Pioneer ATV",
@@ -30,7 +32,8 @@
         "HalfDay3hrs": "$50",
         "FullDay": "$70",
         "HalfDay6hrs": "$60",
-        "FullDayExtended": "$80"
+        "FullDayExtended": "$80",
+        "Image": ""
     },
     {
         "RentalType": "Jeep Wrangler - 4 door with a/c",
@@ -38,7 +41,8 @@
         "HalfDay3hrs": "$70",
         "FullDay": "$100",
         "HalfDay6hrs": "$85",
-        "FullDayExtended": "$125"
+        "FullDayExtended": "$125",
+        "Image": ""
     },
     {
         "RentalType": "Jeep Wrangler - 2 door",
@@ -46,6 +50,7 @@
         "HalfDay3hrs": "$60",
         "FullDay": "$85",
         "HalfDay6hrs": "$70",
-        "FullDayExtended": "$90"
+        "FullDayExtended": "$90",
+        "Image": ""
     }
 ]
