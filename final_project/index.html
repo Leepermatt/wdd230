@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="styles/medium.css">
     <script src="scripts/hamburger.js" defer></script>
     <script src="scripts/weather1.js" defer></script>
+    <script src="scripts/form.js" defer></script>
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
@@ -42,15 +43,15 @@
             <li><a href="reservations.html">Reservations</a></li>
             <li><a href="contact.html">Contact Us</a></li>
         </ul>
-        <!-- <div class="hamburger">&#9776;</div> -->
+        <div class="hamburger">&#9776;</div>
     </nav>
 
 
     <main>
         <section>
-            <div id="banne">
+            <div class="banne">
                 <p>High temperature for the day: <span id="highest-temp"></span></p>
-                <!-- <button id="closeButton">Close</button> -->
+                <button id="closeButton">Close</button>
             </div>
         </section>
         <h1>Scoots Motor Rental</h1>
@@ -58,13 +59,16 @@
         <section class="rental-button">
             <div id="rental-button">
                 <p>Click here to rent now!</p>
-                <button id="closeButton2">Close</button>
+                <button onclick="redirectToForm()">Rent Now!</button>
             </div>
 
 
         </section>
 
-        <section class="hero-image">
+        <section class="hero-image1">
+            <picture src></picture>
+        </section>
+        <section class="hero-image2">
             <picture src></picture>
         </section>
         <section class="card">

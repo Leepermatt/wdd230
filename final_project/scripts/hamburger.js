@@ -1,8 +1,8 @@
 // JavaScript to toggle visibility of navigation on click
-// document.querySelector('.hamburger').addEventListener('click', function () {
-//     const navLinks = document.querySelector('nav ul');
-//     navLinks.style.display = navLinks.style.display === 'block' ? 'none' : 'block';
-// });
+document.querySelector('.hamburger').addEventListener('click', function () {
+    const navLinks = document.querySelector('nav ul');
+    navLinks.style.display = navLinks.style.display === 'block' ? 'none' : 'block';
+});
 const hamButton = document.querySelector('#menu');
 const navigation = document.querySelector('nav');
 
