@@ -15,7 +15,7 @@
         "FullDay": "$40",
         "HalfDay6hrs": "$35",
         "FullDayExtended": "$45",
-        "Image": ""
+        "Image": "https://leepermatt.github.io/wdd230/final_project/images/honda_dio.webp"
     },
     {
         "RentalType": "Honda PCX150 Scooter",
@@ -24,7 +24,7 @@
         "FullDay": "$50",
         "HalfDay6hrs": "$45",
         "FullDayExtended": "$55",
-        "Image": ""
+        "Image": "https://leepermatt.github.io/wdd230/final_project/images/Honda_PCS150.webp"
     },
     {
         "RentalType": "Honda Pioneer ATV",
@@ -33,7 +33,7 @@
         "FullDay": "$70",
         "HalfDay6hrs": "$60",
         "FullDayExtended": "$80",
-        "Image": ""
+        "Image": "https://leepermatt.github.io/wdd230/final_project/images/pioneer_atv.webp"
     },
     {
         "RentalType": "Jeep Wrangler - 4 door with a/c",
@@ -42,7 +42,7 @@
         "FullDay": "$100",
         "HalfDay6hrs": "$85",
         "FullDayExtended": "$125",
-        "Image": ""
+        "Image": "https://leepermatt.github.io/wdd230/final_project/images/jeep_4-door.webp"
     },
     {
         "RentalType": "Jeep Wrangler - 2 door",
@@ -51,6 +51,6 @@
         "FullDay": "$85",
         "HalfDay6hrs": "$70",
         "FullDayExtended": "$90",
-        "Image": ""
+        "Image": "https://leepermatt.github.io/wdd230/final_project/images/jeep_2-door.webp"
     }
 ]
