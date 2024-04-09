@@ -6,7 +6,7 @@
         "FullDay": "$30",
         "HalfDay6hrs": "$25",
         "FullDayExtended": "$35",
-        "Image": "images/honda_metro.webp"
+        "Image": "https://leepermatt.github.io/wdd230/final_project/images/honda_metro.webp"
     },
     {
         "RentalType": "Honda Dio Scooter",
