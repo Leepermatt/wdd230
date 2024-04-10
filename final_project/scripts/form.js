@@ -12,5 +12,5 @@ document.getElementById("form").addEventListener("submit", function (event) {
     // Prevent the default form submission behavior
     event.preventDefault();
     // Redirect to submit.html
-    window.location.href = "submit.html";
+    window.location.href = "https://leepermatt.github.io/wdd230/final_project/submit.html";
 });
