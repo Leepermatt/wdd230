@@ -34,26 +34,31 @@
         <h1>Scoots Motor Rentals</h1>
         <h2>2 Locations to serve you better</h2>
     </header>
+    <button id="hamburger-menu">
+        <nav class="navigation">
+            <!-- <button id="menu" aria-label="hamburger"></button> -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="rentals.html">Rentals</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
 
-    <nav class="navigation">
-        <button id="menu" aria-label="hamburger"></button>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="reservations.html">Reservations</a></li>
-            <li><a href="rentals.html">Rentals</a></li>
-            <li><a href="reservations.html">Reservations</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-        <div class="hamburger">&#9776;</div>
-    </nav>
-
+        </nav>
+    </button>
+    <div class="overlay"></div>
 
     <main>
         <section>
-            <div class="banne">
+            <div class="highest-temp">
+                <p>High temperature for the day: <span id="highest-temp"></span></p>
+                <span id="close" onclick="this.parentNode.parentNode.remove(); return false;">Close</span>
+            </div>
+            <!-- <div class="banne">
                 <p>High temperature for the day: <span id="highest-temp"></span></p>
                 <button id="closeButton">Close</button>
-            </div>
+            </div> -->
         </section>
         <h1>Scoots Motor Rental</h1>
 
