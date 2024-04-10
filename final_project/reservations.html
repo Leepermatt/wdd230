@@ -30,6 +30,73 @@
 
 <body>
     <main>
+        <h2>Rental Services and Agreements</h2>
+        <ul>
+            <li>A $50 security deposit is required to confirm reservations.</li>
+            <li>A valid driver's license is required in hand at the time of rental.</li>
+            <li>No one under the age of 12 years is allowed to ride on the scooters.</li>
+            <li>Fuel charge is not included.</li>
+            <li>Unlimited mileage.</li>
+            <li>Liability insurance is included.</li>
+            <li>Damage insurance is available for purchase.</li>
+            <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
+            <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or Venmo.</li>
+            <li>Rentals may be returned to either physical location.</li>
+        </ul>
+        <h2>Rental Form</h2>
+        <form action="submit_rental_details.php" method="post">
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required><br><br>
+
+            <label for="period">Period:</label>
+            <select id="period" name="period" required>
+                <option value="" disabled selected hidden>Select Period</option>
+                <option value="half-day 3">Half Day 3 hours</option>
+                <option value="full-day">Full Day</option>
+                <option value="half-day 6">Half Day 6 hours</option>
+                <option value="full-day-extend">Full Day Extended</option>
+            </select><br><br>
+
+            <label for="rental-type">Rental Type:</label>
+            <select id="rental-type" name="rental-type" required>
+                <option value="" disabled selected hidden>Select Rental</option>
+                <option value="Honda-Metro-Scooter">Honda Metro Scooter</option>
+                <option value="Honda-Dio-Scooter">Honda Dio Scooter</option>
+                <option value="Honda-PCX150-Scooter">Honda PCX150 Scooter</option>
+                <option value="Honda-Pioneer-ATV">Honda Pioneer ATV</option>
+                <option value="4-door">Jeep Wrangler - 4 door with a/c</option>
+                <option value="2-door">Jeep Wrangler - 2 door</option>
+            </select><br><br>
+            <label for="quantity">Quantity:</label>
+            <select id="quantity" name="quantity" required>
+                <option value="">Select Quantity</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">2</option>
+                <option value="4">2</option>
+                <option value="5">2</option>
+                <option value="6">2</option>
+            </select><br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10,10}" required><br><br>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" pattern="[a-z0-9._%+\-]+@[a-z0-9._%+\-]" required><br><br>
+
+            <label for="state-country">Home State or Country:</label>
+            <input type="text" id="state-country" name="state-country" required><br><br>
+
+            <label for="cruise-line">Cruise Line (if applicable):</label>
+            <input type="text" id="cruise-line" name="cruise-line"><br><br>
+
+            <label for="accommodations">Special Accommodations/Comments:</label><br>
+            <textarea id="accommodations" name="accommodations" rows="4" cols="50"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
     </main>
     <footer>
         <a href="attributions.html">attributions</a>
