@@ -133,3 +133,61 @@ input[type="submit"]:hover {
 #card {
     padding: 10px;
 }
+
+/*----------form wf1--------*/
+.wf1 fieldset {
+    margin: 2rem 0;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+
+.wf1 legend {
+    color: darkblue;
+    padding: 0 .5rem;
+}
+
+wf1 label {
+    display: block;
+    padding-top: 1rem;
+    color: red;
+    font-size: .9rem;
+
+
+}
+
+.wf1 div {
+    padding-top: 1rem;
+    color: darkblue;
+    font-size: .9rem;
+    ;
+}
+
+.wf1 select,
+.wf1 input[type="email"],
+.wf1 input[type="phone"],
+.wf1 input[type="name"],
+.wf1 input[type="email"],
+.wf1 input[type="state-country"],
+.wf1 input[type="text"],
+.wf1 input[type="date"],
+.wf1 input[type="accommodations"] {
+    /* background-color: deeppink; */
+    display: block;
+    border: solid 1px darkgoldenrod;
+    border-radius: 6px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 400px;
+}
+
+.wf1 input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(#038c5a, #02623e);
+    color: white;
+    border-radius: 6px;
+    width: 45%;
+
+}
+
+/*-----wf2----*/
