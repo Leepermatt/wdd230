@@ -78,10 +78,31 @@
     text-align: center;
 }
 
-#rental-button:hover {
-    background-color: #04AA6D
+
+
+/* Add some flair to the button */
+#rental-button {
+    text-align: center;
+    margin: 20px;
 }
 
+button {
+    background-color: #ff6b6b;
+    /* Vibrant red color */
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* Smooth color transition on hover */
+}
+
+button:hover {
+    background-color: #ff4f4f;
+    /* Slightly darker red on hover */
+}
 
 
 .contact-form {
@@ -194,6 +215,10 @@ wf1 label {
     border-bottom: solid 8px darkgreen;
 }
 
+.wf1 input:required:valid {
+    border-bottom: red;
+}
+
 /*-----wf2----*/
 .wf2 input[type="submit"] {
     border: none;
@@ -245,4 +270,8 @@ wf2 label {
     padding: .75rem;
     width: 100%;
     max-width: 400px;
+}
+
+.wf2 input:required {
+    border-bottom: solid 8px darkgreen;
 }
