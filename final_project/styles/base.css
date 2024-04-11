@@ -3,7 +3,9 @@
     nav ul {
         display: none;
         /* Hide the list of links on smaller screens */
-
+* {
+    background-color: lightyellow;
+}
 
 .hamburger {
     display: block;
