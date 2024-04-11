@@ -121,14 +121,15 @@ input[type="submit"]:hover {
 }
 
 /* CSS for a two-card layout using CSS Grid */
-.card {
+#card {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    /* Two columns with equal width */
-    gap: 1em;
-    /* Spacing between cards */
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    gap: 10px;
+    /* Adjust this value as needed */
+    padding: 10px;
 }
 
-.card {
+
+#card {
     padding: 10px;
 }
