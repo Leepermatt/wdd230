@@ -19,27 +19,7 @@
     display: block;
 }
 
-*/
 
-/* Styling for the banner */
-.banne {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #f30909;
-    color: #fff;
-    padding: 10px 20px;
-    box-sizing: border-box;
-    z-index: 9999;
-}
-
-/* Styling for the close button */
-.close-btn {
-    float: right;
-    cursor: pointer;
-    color: #fff;
-}
 
 .visually-hidden {
     border: 0;
@@ -53,7 +33,7 @@
     /* IE6, IE7 - a 0 height clip, off to the bottom right of the visible 1px box */
     clip: rect(1px, 1px, 1px, 1px);
     /*maybe deprecated but we need to support legacy browsers */
-    clip-path: inset(50%);
+    /* clip-path: inset(50%); */
     /*modern browsers, clip-path works inwards from each corner*/
     white-space: nowrap;
     /* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
@@ -138,4 +118,17 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #038c5a;
+}
+
+/* CSS for a two-card layout using CSS Grid */
+.card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Two columns with equal width */
+    gap: 1em;
+    /* Spacing between cards */
+}
+
+.card {
+    padding: 10px;
 }

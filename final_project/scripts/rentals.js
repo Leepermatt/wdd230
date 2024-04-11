@@ -1,6 +1,6 @@
 const url = 'https://leepermatt.github.io/wdd230/final_project/data/rental.json';
 
-const cards = document.querySelector('#rentals');
+const cards = document.querySelector('#card');
 
 async function getRentalData() {
     const response = await fetch(url);
