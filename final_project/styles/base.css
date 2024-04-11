@@ -36,7 +36,7 @@
 }
 
 .navigation a:hover {
-    background-color: #e70a0a;
+    background-color: darkblue;
 }
 
 
@@ -54,7 +54,7 @@
     /* float: right; */
     display: inline-block;
     padding: 2px 5px;
-    background: #4d04e9;
+    background: darkblue;
     color: #fff;
 }
 
@@ -93,7 +93,7 @@ button {
 }
 
 button:hover {
-    background-color: #ff4f4f;
+    background-color: darkblue;
     /* Slightly darker red on hover */
 }
 
