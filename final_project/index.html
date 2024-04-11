@@ -34,42 +34,43 @@
         <h1>Scoots Motor Rentals</h1>
         <h2>2 Locations to serve you better</h2>
     </header>
-    <button id="hamburger-menu">
-        <nav class="navigation">
-            <!-- <button id="menu" aria-label="hamburger"></button> -->
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="reservations.html">Reservations</a></li>
-                <li><a href="rentals.html">Rentals</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
 
-        </nav>
-    </button>
-    <div class="overlay"></div>
+    <nav class="navigation">
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="rentals.html">Rentals</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- <div class="overlay"></div> -->
 
     <main>
-        <section>
-            <div class="highest-temp">
-                <p>High temperature for the day: <span id="highest-temp"></span></p>
-                <span id="close" onclick="this.parentNode.parentNode.remove(); return false;">Close</span>
-            </div>
-            <!-- <div class="banne">
-                <p>High temperature for the day: <span id="highest-temp"></span></p>
-                <button id="closeButton">Close</button>
-            </div> -->
-        </section>
-        <h1>Scoots Motor Rental</h1>
 
-        <section class="rental-button">
-            <div id="rental-button">
-                <p>Click here to rent now!</p>
-                <button onclick="redirectToForm()">Rent Now!</button>
-            </div>
+        <div class="highest-temp">
+            <p>High temperature for the day: <span id="highest-temp"></span></p>
+            <span id="close" onclick="this.parentNode.parentNode.remove(); return false;">Close</span>
+        </div>
+
+        <h2>Scoots Motor Rental</h2>
 
 
-        </section>
-        <section class="rental-sum">
+        <div id="rental-button">
+            <p>Click here to rent now!</p>
+            <button onclick="redirectToForm()">Rent Now!</button>
+        </div>
+
+
+
+        <div class="hero-image1">
+            <picture>
+                <img src="images/cozumel_large.webp" alt="Cozumel" width="1000" height="500">
+            </picture>
+        </div>
+        <div class="rental-sum">
             <h2>Types of Rentals</h2>
             <h3>Honda Motor Scooters</h3>
             <ul>
@@ -87,20 +88,21 @@
                 <li>Jeep Wrangler - 2 door - open air - manual - 4 person</li>
             </ul>
 
-        </section>
-        <section class="hero-image1">
-            <picture src="images/cozumel_harbour.webp" alt="Cozumel" width="1000" height="500">></picture>
-        </section>
-        <section class="hero-image2">
-            <picture src="images/cozumel_harbour.webp" alt="Cozumel Harbour" width="1000" height="500"></picture>
-        </section>
-        <section class="cards">
+        </div>
+
+
+        <div class="hero-image2">
+            <picture>
+                <img src="images/cozumel_harbour.webp" alt="Cozumel Harbour" width="1000" height="500">
+            </picture>
+        </div>
+        <div class="cards">
             <h3>Information</h3>
             <a>Cozemul</a>
             <p>The current tempature in Cozemul Mexico is: <span id="current-temp"></span></p>
             <p>Title: <span id="title"></span></p>
             <figure>
-                <img id="weather-icon" src="" alt="">
+                <img id="weather-icon" src="#" alt="">
                 <figcaption></figcaption>
             </figure>
             <p>Description: <span id="description"></span></p>
@@ -109,7 +111,7 @@
             <p>The next day temperature at 3:00 pm is: <span id="#next-day-temp-at3"></span></p>
 
 
-        </section>
+        </div>
     </main>
     <footer>
         <a href="attributions.html">attributions</a>

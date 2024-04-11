@@ -1,9 +1,9 @@
 @media screen and (max-width: 750px) {
-    #main-menu {
+    /* #main-menu {
         display: none;
-    }
+    } */
 
-    #hamburger-menu {
+    /* #hamburger-menu {
         display: inline;
-    }
+    } */
 }

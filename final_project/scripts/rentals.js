@@ -13,7 +13,7 @@ getRentalData();
 const displayRentals = (rentals) => {
     // card build code goes here
     rentals.forEach((rental) => {
-        let card = document.createElement('section');
+        let card = document.createElement('div');
         let name = document.createElement('h2');
         let maxPerson = document.createElement('h3');
         let halfDay3 = document.createElement('h3');

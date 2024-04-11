@@ -7,39 +7,47 @@
     background-color: lightyellow;
 }
 
-.hamburger {
-    display: block;
-    /* Display the hamburger menu icon */
-    float: right;
-    /* Float the hamburger menu icon to the right */
-    cursor: pointer;
-    /* Change cursor to pointer on hover */
-}
-
-/* Show the links when the hamburger menu is clicked */
-.links.show {
-    display: block;
-}
-
-
-
-.visually-hidden {
-    border: 0;
-    padding: 0;
-    margin: 0;
-    position: absolute !important;
-    height: 1px;
-    width: 1px;
+.navigation {
+    /* background-color: #cf2020; */
+    /* Set background color for the navigation bar */
     overflow: hidden;
-    clip: rect(1px 1px 1px 1px);
-    /* IE6, IE7 - a 0 height clip, off to the bottom right of the visible 1px box */
-    clip: rect(1px, 1px, 1px, 1px);
-    /*maybe deprecated but we need to support legacy browsers */
-    /* clip-path: inset(50%); */
-    /*modern browsers, clip-path works inwards from each corner*/
-    white-space: nowrap;
-    /* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
+    /* Clear floats */
 }
+
+.navigation ul {
+    list-style-type: none;
+    /* Remove bullets from the list */
+    margin: 0;
+    /* Remove default margin */
+    padding: 0;
+    /* Remove default padding */
+}
+
+.navigation li {
+    float: left;
+    /* Float the list items horizontally */
+}
+
+.navigation a {
+    display: block;
+    /* Display links as blocks (one next to the other) */
+    color: rgb(23, 99, 75);
+    /* Set link color */
+    text-align: center;
+    /* Center the link text */
+    padding: 14px 16px;
+    /* Add padding around each link */
+    text-decoration: none;
+    /* Remove underlines from links */
+}
+
+.navigation a:hover {
+    background-color: #e70a0a;
+    /* Change background color on hover */
+}
+
+
+
 
 #close {
     /* float: right; */
@@ -70,23 +78,13 @@
     text-align: center;
 }
 
-
-/* #hamburger-menu {
-    width: 50px;
-    height: 50px;
-    display: block;
-    border: none;
-    background: linear-gradient(to bottom, #3D0E61, white 20%, white 40%, #3D0E61 60%, white 80%, #3D0E61 100%);
-} */
-
-/* Hide the menu initially */
-#sidebar-menu {
-    position: absolute;
-    top: -1000px;
-    /* Other styling properties */
+#rental-button:hover {
+    background-color: #04AA6D
 }
 
-.contact-form {
+
+
+*/ .contact-form {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
