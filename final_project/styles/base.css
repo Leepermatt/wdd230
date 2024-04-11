@@ -7,43 +7,35 @@
     background-color: lightyellow;
 }
 
-.navigation {
-    /* background-color: #cf2020; */
-    /* Set background color for the navigation bar */
-    overflow: hidden;
-    /* Clear floats */
-}
-
+/* Center the list items horizontally */
 .navigation ul {
     list-style-type: none;
-    /* Remove bullets from the list */
     margin: 0;
-    /* Remove default margin */
     padding: 0;
-    /* Remove default padding */
+    display: flex;
+    justify-content: center;
+    /* Horizontally center the list items */
 }
 
+/* Other styles remain the same */
 .navigation li {
-    float: left;
-    /* Float the list items horizontally */
+    float: none;
+    /* Remove the float property */
 }
 
 .navigation a {
     display: block;
-    /* Display links as blocks (one next to the other) */
     color: rgb(23, 99, 75);
-    /* Set link color */
     text-align: center;
-    /* Center the link text */
-    padding: 14px 16px;
-    /* Add padding around each link */
+    padding: 14px 10px;
+    /* Adjust padding as needed */
+    font-size: 18px;
+    /* Increase font size */
     text-decoration: none;
-    /* Remove underlines from links */
 }
 
 .navigation a:hover {
     background-color: #e70a0a;
-    /* Change background color on hover */
 }
 
 
@@ -274,4 +266,30 @@ wf2 label {
 
 .wf2 input:required {
     border-bottom: solid 8px darkgreen;
+}
+
+header {
+    text-align: center;
+}
+
+/* Center the entire content */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Adjust as needed */
+}
+
+/* Center specific elements (e.g., types of rentals) */
+#hero-image1,
+.hero-image2 {
+    margin: 0 auto;
+    /* Additional styling properties if needed */
+}
+
+/* Center the Cozumel information section */
+.cards {
+    text-align: center;
+    /* Additional styling properties if needed */
 }
