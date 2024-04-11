@@ -25,13 +25,14 @@
 
 .navigation a {
     display: block;
-    color: rgb(23, 99, 75);
+    color: rgb(228, 237, 234);
     text-align: center;
     padding: 14px 10px;
     /* Adjust padding as needed */
     font-size: 18px;
     /* Increase font size */
     text-decoration: none;
+    background-color: darkgoldenrod;
 }
 
 .navigation a:hover {
