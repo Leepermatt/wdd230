@@ -191,3 +191,54 @@ wf1 label {
 }
 
 /*-----wf2----*/
+.wf2 input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(#038c5a, #02623e);
+    color: white;
+    border-radius: 6px;
+    width: 45%;
+
+}
+
+.wf2 fieldset {
+    margin: 2rem 0;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+
+.wf2 legend {
+    color: darkblue;
+    padding: 0 .5rem;
+}
+
+wf2 label {
+    display: block;
+    padding-top: 1rem;
+    color: red;
+    font-size: .9rem;
+
+
+}
+
+.wf2 div {
+    padding-top: 1rem;
+    color: darkblue;
+    font-size: .9rem;
+    ;
+}
+
+.wf2 input[type="email"],
+.wf2 input[type="tel"],
+.wf2 input[type="name"],
+.wf2 input[type="email"],
+
+.wf2 input[type="text"] {
+    /* background-color: deeppink; */
+    display: block;
+    border: solid 1px darkgoldenrod;
+    border-radius: 6px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 400px;
+}
