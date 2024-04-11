@@ -165,7 +165,7 @@ wf1 label {
 
 .wf1 select,
 .wf1 input[type="email"],
-.wf1 input[type="phone"],
+.wf1 input[type="tel"],
 .wf1 input[type="name"],
 .wf1 input[type="email"],
 .wf1 input[type="state-country"],
@@ -188,6 +188,10 @@ wf1 label {
     border-radius: 6px;
     width: 45%;
 
+}
+
+.wf1 input:required {
+    border-bottom: solid 8px darkgreen;
 }
 
 /*-----wf2----*/
